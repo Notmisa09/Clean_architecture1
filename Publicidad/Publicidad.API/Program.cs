@@ -18,6 +18,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthorization();
 
+Console.WriteLine("The server is listening..");
+
 app.MapControllers();
 
 app.Run();
